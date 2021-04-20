@@ -1,4 +1,4 @@
-#!/bin/ksh
+#!/bin/bash
 for (( i=$1; i>0; i--)); do
   sleep 1 &
   printf "  $i \r"
